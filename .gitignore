@@ -105,8 +105,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.env.*
 !.env.example
 .venv
 env/
@@ -351,3 +349,5 @@ tests/unit/test_multiround_per_store.py
 # Rendered result tables (LaTeX source + PNG); regenerated from the numbers in the
 # README, so they are output rather than source.
 benchmarks/docs/
+config.bat
+node_modules

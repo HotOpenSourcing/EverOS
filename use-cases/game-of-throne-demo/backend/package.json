@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bun --watch src/server.ts",
-    "build": "tsc",
-    "start": "bun src/server.ts",
+    "dev": "node init && bun --watch src/server.ts",
+    "build": "node init && tsc",
+    "start": "node init && bun src/server.ts",
     "type-check": "tsc --noEmit",
     "lint": "eslint . --ext ts --report-unused-disable-directives --max-warnings 0"
   },
